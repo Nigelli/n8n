@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "n8nVersion": "1.70.0",
+  "lastUpdated": "2024-01-15",
+  "patches": [
+    {
+      "path": "services/workflow.service.ext.ts",
+      "type": "service_extension",
+      "description": "Adds SOAR workflow management features (template)",
+      "methodsOverridden": ["update", "activate"],
+      "added": "2024-01-15"
+    }
+  ]
+}

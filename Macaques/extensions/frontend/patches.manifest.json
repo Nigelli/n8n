@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "n8nVersion": "1.70.0",
+  "lastUpdated": "2024-01-15",
+  "patches": [
+    {
+      "path": "@/app/components/MainSidebarHeader.vue",
+      "type": "replace",
+      "description": "Adds SOAR branding badge to the sidebar header",
+      "added": "2024-01-15"
+    }
+  ]
+}
